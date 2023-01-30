@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif; ;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.container-fluid{
+background-color: #f6b319;
+border-radius: 0;
+border: 0;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 0px;
+width: 100%;
+}
+.navbar{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-brand h1{
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.heading1
+{
+float: center;
+}
+.logo{
+    width: 16px;
+}
+.nav-item span{
+   
+    text-transform: uppercase;
+}
+.heading{
+text-align: center;
+font-size: 50px;
+text-transform: uppercase;
+}
+.content{
+    justify-content: center;
+    width: 70%;
+    height: 50%;
+    background-color: gray;
+    padding: 50px;
+    margin: auto;
+    overflow: auto;
+}
+.content h1{
+    text-align: center;
+}
+.navbar-toggler{
+    float:right;
+}
+.navbar-toggler-icon{
+    float:right;
+}
+.nav-item{
+    margin-top: 10px;
+    float: right;
+    margin-right: 0px;
+    padding-right: 0px;
+    size: 16px;
+}
+#nav-list a {
+    color: black;
+    text-align: center;
+}
+#nav-list a:hover{
+    background-color: #E7E7E7;
+}
+#nav-list a span {
+    font-size: 1.5em;
+}
+@media(min-width:1200px){
+    .navbar-toggler{
+        float:right;
+    }
+    .navbar-brand h1{
+        font-family: 'Lora', serif;
+        color: #557c3e;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+    }
+    .content{
+    width: 70%;
+    height: 50%;
+    }
+}
+@media(min-width:992px) and (max-width:1199px)
+{
+.navbar-brand h1{
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+}
+@media(min-width:768px)and(max-width:991px)
+{   
+    .navbar-toggler{
+            float:right;
+
+}
+.navbar-brand h1{
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.content{
+    width: 70%;
+    height: 50%;
+    }
+}
+@media(max-width:767px){
+    .navbar-toggler{
+        float:right;
+    }
+    .navbar-brand h1{
+        font-family: 'Lora', serif;
+        color: #557c3e;
+        font-size: 0.7em;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+    }
+    .content{
+        width: 70%;
+        height: 50%;
+        }
+    
+}
