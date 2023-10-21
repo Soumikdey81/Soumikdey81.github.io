@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-brand{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: none;
+    background-image: url('image12.png');
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.body{
+    background-image: url(image9.png);
+    background-size: cover;
+}
+.h1{
+    height: 738px;
+    margin: 0px;
+    padding: 0px;
+    padding: 20px;
+    border-radius: 2px;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:95%;
+    height: 700px;
+    border-radius: 5px;
+}
+.h2{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.chef{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgb(255,50,50);
+    margin-top: 50px;
+}
+.chef1{
+    width: 250px;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: absolute;
+    border-radius: 5px;
+    animation-name: chef1-a;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+} 
+@keyframes chef1-a{
+    from{
+        left: -350px;
+    }
+    to{
+        left: 1140px;
+    }
+}
+.chef2{
+    width: 250px;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: absolute;
+    border-radius: 5px;
+    animation-name: chef2-a;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes chef2-a{
+    from{
+        left: -700px;
+    }
+    to{
+        left: 790px;
+    }
+}
+.chef3{
+    width: 250px;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: absolute;
+    border-radius: 5px;
+    animation-name: chef3-a;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes chef3-a{
+    from{
+        left: -1050px;
+    }
+    to{
+        left: 440px;
+    }
+}
+.chef4{
+    width: 250px;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: absolute;
+    border-radius: 5px;
+    animation-name: chef4-a;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes chef4-a{
+    from{
+        left: -1400px;
+    }
+    to{
+        left: 90px;
+    }
+}
+.chef1-n{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(255,50,50);
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    position: absolute;
+    animation-name: chef1-n-a;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+} 
+@keyframes chef1-n-a{
+    from{
+        left: -350px;
+    }
+    to{
+        left: 1140px;
+    }
+}
+.chef2-n{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(255,50,50);
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    position: absolute;
+    animation-name: chef2-n-a;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes chef2-n-a{
+    from{
+        left: -700px;
+    }
+    to{
+        left: 790px;
+    }
+}
+.chef3-n{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(255,50,50);
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    position: absolute;
+    animation-name: chef3-n-a;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes chef3-n-a{
+    from{
+        left: -1050px;
+    }
+    to{
+        left: 440px;
+    }
+}
+.chef4-n{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(255,50,50);
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    position: absolute;
+    animation-name: chef4-n-a;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes chef4-n-a{
+    from{
+        left: -1400px;
+    }
+    to{
+        left: 90px;
+    }
+}
+.footer1{
+    background-color: black;
+    height: 430px;
+}
+.header-f{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-image: url('image12.png');
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.col{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.footer-p{
+    text-align: center;
+    font-size: 20px;
+    font-style:italic;
+    text-align: center;
+    color:white;
+}
+.subs{
+    margin: auto;
+    width: 50%;
+    height: 40px;
+}
+.form-control{
+    height: 40px;
+    width:362px;
+    display: inline;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-social-links{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.social-link{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.social-link:hover{
+    color: white;
+}
+i:hover{
+    font-size: 25px;
+    color: white;
+}
+.copy{
+    color: white;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.copy p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
